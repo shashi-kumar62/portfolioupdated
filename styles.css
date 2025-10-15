@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #007bff; /* Modern blue color */
+}
+
+ul, ol {
+    list-style-type: none; /* Clean look */
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '•'; /* Bullet point */
+    color: #007bff;
+    position: absolute;
+    left: 0;
+}
+
+.footer {
+    margin-top: 50px;
+}
